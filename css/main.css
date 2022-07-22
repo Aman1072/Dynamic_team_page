@@ -1,0 +1,108 @@
+* {
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: skyblue ;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    background: deepskyblue;
+    margin: 2px 50px;
+    border-radius: 50%;
+    border: 3x solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: deeppink;
+    cursor: pointer;
+}
+
+.image:hover {
+    border: 3x solid deepskyblue;
+}
+
+img {
+    width: 1160px;
+    height: 116px;
+    border-radius: 50%;
+}
+
+.info-container {
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px deepskyblue;
+}
+
+.profile {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.name {
+    margin-top: 80px;
+    padding: 0px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.status {
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about {
+    height: 240px;
+    padding: 0px 20px;
+}
+
+.button-1 {
+    background-color: blue;
+    height: 46px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 69%;
+    right: 54.5%;
+}
+
+.button-2 {
+    background-color: blue;
+    height: 46px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 69%;
+    right: 40%;
+}
+
+.UI {
+    color: #ffffff;
+}
